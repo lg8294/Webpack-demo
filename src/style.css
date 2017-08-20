@@ -1,9 +1,10 @@
 
 @font-face {
     font-family: 'MyFont';
-    src: url('./my-font.ttf') format('truetype'),
-         url('./my-font2.ttf') format(('truetype'));
-    font-weight: 600;
+    src: url('./my-font.ttf') format('truetype');
+         /* url('./my-font2.ttf') format('truetype'); */
+    /* font-weight: 600; */
+    /* font-size: 100px; */
     font-style: normal;
 }
 
