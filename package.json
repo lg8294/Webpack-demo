@@ -1,15 +1,18 @@
 {
   "name": "webpack-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "webpack学习demo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "李刚",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }
