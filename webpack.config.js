@@ -4,6 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
+    mode: 'development',
+
     entry: {
         // app: './src/index.js',
         // print: './src/print.js'
@@ -25,7 +27,7 @@ module.exports = {
     plugins: [
         // new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
-            title: 'Hot Module Replacement'
+            title: 'Hello Webpack4'
         }),
         new webpack.HotModuleReplacementPlugin()
     ],
